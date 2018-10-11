@@ -1,19 +1,29 @@
 {
-  "name": "myblog",
+  "name": "loginapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple authentication system",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/p4ru/myblog.git"
-  },
-  "author": "",
+  "author": "Parshad",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/p4ru/myblog/issues"
-  },
-  "homepage": "https://github.com/p4ru/myblog#readme"
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.16.3",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "^5.3.0",
+    "npm": "^6.4.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
 }
