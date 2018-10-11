@@ -1,4 +1,4 @@
 # testblog
 #
-# This is my how to log
+# This is an intro page
 #
